@@ -781,7 +781,7 @@
     },
     {
         "id": 7,
-        "name": "CENTRAL AREA",
+        "name": "RIVER VALLEY",
         "coordinates": [
             [
                 103.8233113,
@@ -4572,9 +4572,6 @@
     {
         "id": 20,
         "name": "SENGKANG",
-        "coordinates": null,
-        "lat": "1.3909487",
-        "lon": "103.8951748",
         "average_price": 486399.37107045774,
         "rank": 14
     },

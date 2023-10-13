@@ -3,7 +3,7 @@ import json
 
 if __name__ == "__main__":
     # open data.csv file and read it into a pandas dataframe
-    df = pd.read_csv('data.csv')
+    df = pd.read_csv('data_modified.csv')
     total_average_price = df['resale_price'].mean()
 
     # read json file

@@ -26,7 +26,7 @@ def get_cords(query):
                 return return_dict
     
 # open data.csv file and read it into a pandas dataframe
-df = pd.read_csv('data.csv')
+df = pd.read_csv('data_modified.csv')
 # get unique values of the column 'town'
 towns = df['town'].unique()
 

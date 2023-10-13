@@ -178,7 +178,7 @@ class App(customtkinter.CTk):
 
 
         for town in average_price_list:
-            if town['name'] == "Singapore" or town['coordinates'] == None:
+            if town['name'] == "Singapore" or 'coordinates' not in town or town['coordinates'] == None:
                 continue
             cords = swap_coordinates(town['coordinates'])
             # if resale price is greater than average price, fill the polygon with red color
